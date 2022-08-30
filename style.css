@@ -252,6 +252,20 @@ footer {
     padding-top: 20px;
 }
 
+.footer-end {
+    margin: 0 20px;
+    width: 75%;
+    text-align: center;
+}
+
+
+.footer-end>a {
+    color: rgba(255, 255, 255, 0.555);
+    text-decoration: none;
+    margin: 0 30px;
+    font-size: 14px;
+}
+
 hr {
     color: #AAAAAA;
     width: 75%;
