@@ -1,0 +1,279 @@
+/*----------------- fonts--------------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* -------Utilities------ */
+body {
+    background-color: rgba(216, 215, 215, 0.267);
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    background-color: #000000;
+    width: 75%;
+    padding: 30px;
+    margin-top: 21px;
+    border-radius: 5px;
+}
+
+.container-1 {
+    background-color: #fcfcfc;
+    width: 75%;
+    padding: 30px;
+    margin-top: 21px;
+    border-radius: 5px;
+}
+
+
+/* -----------hero/main-section---------- */
+header {
+    padding-left: 260px;
+}
+
+.main-section {
+    display: flex;
+    align-items: flex-end;
+}
+
+.main-section-detail {
+    padding-right: 40px;
+}
+
+.section-title {
+    font-size: 55px;
+    font-weight: 700;
+    color: white;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+}
+
+button {
+    width: 196px;
+    height: 44px;
+    color: white;
+    background-color: #E02C6D;
+    font-size: 17px;
+    font-weight: 700;
+    border-radius: 30px;
+    border: none;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: coral;
+    transform: rotate(360deg);
+    transition: width 2s, height 2s, background-color 2s, transform 3s;
+}
+
+.fad {
+    color: white;
+    padding-left: 7px;
+}
+
+.main-player {
+    background-image: url("circledesign.svg");
+}
+
+.main-player img {
+    width: 150%;
+
+}
+
+/* --------logos------ */
+
+.logos {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.logo-border {
+    border: 1px solid lightgrey;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+/*------------ Transfer Market News---------- */
+
+#collection-heading {
+    color: #3a3a3a;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 70px;
+    text-align: center;
+}
+
+.transfer-first {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+    align-items: center;
+}
+
+.transfer-button {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+
+}
+
+
+
+
+.transfer-collection {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+    padding-top: 20px;
+}
+
+
+
+.collection {
+    border: 5px solid rgb(252, 252, 252);
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 4px 4px 4px 4px rgb(214, 213, 213);
+}
+
+.collection img {
+    border-radius: 15px;
+    /* width: 177px;
+    height: 117px; */
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.transfer {
+    color: black;
+    border: 2px solid black;
+    font-size: 16px;
+    background-color: white;
+    padding: 20px 30px;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+.star-rating {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.collection-title {
+    font-size: 26px;
+    color: #18191F;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.transfer-details {
+    color: #000000;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.fas {
+    color: orange;
+}
+
+.collection-text {
+    color: #787885;
+}
+
+a {
+    color: #E02C6D;
+    padding-top: 40px;
+    text-decoration: none;
+    right: 100px;
+}
+
+.see-more {
+    display: flex;
+    justify-content: flex-end;
+    color: #E02C6D;
+}
+
+#icon {
+    color: #E02C6D;
+}
+
+/* ----------contact form-------- */
+
+.form {
+    margin-top: 40px;
+}
+
+input {
+    background-color: coral;
+    color: black;
+    padding: 12px;
+    border-radius: 15px;
+    margin-bottom: 5px;
+    border: 2px solid black;
+}
+
+input:hover {
+    background-color: chartreuse;
+}
+
+.fas {
+    color: white;
+    padding-left: 10px;
+    justify-content: center;
+    transition: width 2s, height 2s, transform 1s;
+}
+
+/* ----------footer-content---------- */
+
+footer {
+    width: 100%;
+    background-color: #0A0826;
+    margin-top: 50px;
+}
+
+.footer-text {
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+
+hr {
+    color: #AAAAAA;
+    width: 75%;
+}
+
+h3 {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.social-icon {
+    text-align: center;
+    font-size: 32px;
+    color: white;
+}
+
+.fab {
+    width: 50px;
+    height: 40px;
+    background-color: #AAAAAA;
+    border-radius: 25px;
+    padding-top: 8px;
+    margin-bottom: 40px;
+}
